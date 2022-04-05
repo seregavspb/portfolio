@@ -1,0 +1,9 @@
+.Layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Layout_centered {
+    width: 1000px;
+}

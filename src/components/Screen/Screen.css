@@ -1,0 +1,21 @@
+.Screen {
+    display: block;
+    background: radial-gradient(rgb(53, 0, 53), black);
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.Screen_content {
+    display: flex;
+    flex-direction: row;
+    min-height: 920px;
+    padding: 30px;
+}
+
+.Screen_leftColumn,
+.Screen_rightColumn {
+    width: 50%;
+
+}
+

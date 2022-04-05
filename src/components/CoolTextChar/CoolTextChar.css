@@ -1,0 +1,13 @@
+.CoolTextChar span {
+    animation: in 0.5s 1;
+}
+
+@keyframes in {
+    0% {
+        background-color: rgb(195, 0, 195);
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}

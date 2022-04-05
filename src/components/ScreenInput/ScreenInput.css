@@ -1,0 +1,43 @@
+.ScreenInput {
+    padding: 30px;
+    display: flex;
+}
+
+.ScreenInput span {
+    min-width: 10px;
+    display: block;
+}
+
+.ScreenInput span:first-child {
+    padding-right: 10px;
+}
+
+.ScreenInput--active {
+    animation: blink 1.2s infinite;
+}
+
+
+
+@keyframes blink {
+    0% {
+        background-color: rgb(195, 0, 195);
+        color: black;
+
+    }
+
+    49% {
+        background-color: rgb(195, 0, 195);
+        color: black;
+
+    }
+
+    50% {
+        background-color: transparent;
+        color: rgb(195, 0, 195);
+    }
+
+    100% {
+        background-color: transparent;
+        color: rgb(195, 0, 195);
+    }
+}
